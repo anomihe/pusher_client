@@ -25,7 +25,13 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 29
+    namespace 'com.github.anomihe.pusher_client'  // This matches the package structure
+    compileSdkVersion 35  // Match your app's compileSdk (e.g., 35)
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 35  // Match your app's targetSdk (e.g., 35)
+    }
+    // compileSdkVersion 29
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'

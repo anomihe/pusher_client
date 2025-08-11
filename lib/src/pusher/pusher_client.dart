@@ -18,7 +18,7 @@ part 'pusher_client.g.dart';
 /// `connect()` at a later point.
 class PusherClient extends StreamHandler {
   static const MethodChannel _channel =
-      const MethodChannel('com.github.chinloyal/pusher_client');
+      const MethodChannel('com.github.anomihe/pusher_client');
   static const classId = 'PusherClient';
 
   static PusherClient? _singleton;

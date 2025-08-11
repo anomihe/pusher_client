@@ -22,7 +22,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.github.chinloyal.pusher_client
+        package: com.github.anomihe.pusher_client
         pluginClass: PusherClientPlugin
       ios:
         pluginClass: PusherClientPlugin

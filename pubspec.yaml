@@ -8,8 +8,9 @@ documentation: https://github.com/chinloyal/pusher_client/blob/master/README.md
 
 
 environment:
-  sdk: '>=2.12.0 <4.0.0'
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=2.0.0"
+
 
 dependencies:
   flutter:
